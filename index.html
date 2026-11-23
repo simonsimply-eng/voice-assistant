@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>העוזר הקולי – התקנה</title>
+<meta name="description" content="עוזר קולי בוואטסאפ: שולחים הודעה קולית, והוא רושם משימות, פגישות ותזכורות. באישור שלך בלבד.">
+<style>
+:root{--bg:#0f1418;--card:#18222a;--line:#26333d;--text:#e8eef2;--dim:#9fb0bd;--acc:#2fa36b;--acc2:#8ff0c8}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI","Noto Sans Hebrew",Arial,sans-serif;line-height:1.55}
+.wrap{max-width:720px;margin:0 auto;padding:28px 16px 48px}
+.top{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.lang{background:none;border:1px solid var(--line);color:var(--dim);border-radius:999px;padding:6px 12px;font:inherit;cursor:pointer}
+h1{font-size:34px;margin:18px 0 6px}h2{font-size:20px;margin:0 0 8px}
+.lead{color:var(--dim);font-size:18px;margin:0 0 22px}
+.btn{display:block;text-align:center;background:var(--acc);color:#05200f;font-weight:700;font-size:20px;padding:16px;border-radius:14px;text-decoration:none;margin:18px 0 6px}
+.small{color:var(--dim);font-size:14px;text-align:center}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;margin-top:14px}
+ol{margin:0;padding-inline-start:22px}li{margin:6px 0}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}@media(max-width:560px){.grid{grid-template-columns:1fr}}
+.pt{background:#121b21;border:1px solid var(--line);border-radius:12px;padding:12px}.pt b{display:block;margin-bottom:2px}
+.pt span{color:var(--dim);font-size:15px}
+details{margin-top:8px}summary{cursor:pointer;font-weight:600}details p{color:var(--dim);margin:6px 0 0}
+.en{display:none}html[lang=en] .he{display:none}html[lang=en] .en{display:initial}html[lang=en] .en.b{display:block}
+footer{color:var(--dim);font-size:13px;margin-top:28px;text-align:center}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><b>🎙 <span class="he">העוזר הקולי</span><span class="en">Voice Assistant</span></b><button class="lang" id="lang">English</button></div>
+
+  <h1><span class="he">מדברים. הוא רושם.</span><span class="en">You talk. It takes notes.</span></h1>
+  <p class="lead"><span class="he">שולחים הודעה קולית בוואטסאפ – והעוזר רושם משימות, פגישות ותזכורות, מזכיר בזמן ועוקב אחרי מה שאחרים חייבים לך. שום דבר לא נשמר בלי "כן" שלך.</span><span class="en">Send a WhatsApp voice note – it saves tasks, meetings and reminders, reminds you on time and tracks what others owe you. Nothing is saved without your "yes".</span></p>
+
+  <a class="btn" id="dl" href="https://github.com/simonsimply-eng/voice-assistant/releases/latest/download/voice-assistant.apk"><span class="he">⬇️ התקנה לאנדרואיד</span><span class="en">⬇️ Install for Android</span></a>
+  <div class="small"><span class="he">גרסה 26 · אנדרואיד 10 ומעלה · כ-90 MB</span><span class="en">Version 26 · Android 10 or newer · about 90 MB</span></div>
+
+  <div class="card"><h2><span class="he">3 צעדים</span><span class="en">3 steps</span></h2>
+    <ol class="he"><li>מורידים ופותחים את הקובץ. אם הטלפון שואל – "לאפשר התקנה ממקור זה".</li><li>פותחים את האפליקציה, מקלידים את מספר הוואטסאפ, לוחצים "הפעל".</li><li>מקבלים קוד, ובוואטסאפ: ⋮ ← מכשירים מקושרים ← קישור מכשיר ← "קישור עם מספר טלפון" ← מקלידים. זהו.</li></ol>
+    <ol class="en"><li>Download and open the file. If the phone asks – "allow installs from this source".</li><li>Open the app, type your WhatsApp number, tap "Start".</li><li>Get a code, then in WhatsApp: ⋮ → Linked devices → Link a device → "Link with phone number" → type it. Done.</li></ol>
+    <p class="small"><span class="he">פעם אחת: מורידים את מודל העברית (1.6 GB) כדי שהודעות קוליות יתומללו בטלפון עצמו.</span><span class="en">Once: download the Hebrew model (1.6 GB) so voice notes are transcribed on the phone itself.</span></p>
+  </div>
+
+  <div class="card"><h2><span class="he">מה הוא עושה</span><span class="en">What it does</span></h2>
+    <div class="grid">
+      <div class="pt"><b>📝 <span class="he">משימות ופגישות</span><span class="en">Tasks and meetings</span></b><span class="he">"מחר ב-10 להתקשר לרואה החשבון, ויש לי פגישה עם משה" – שני פריטים, בשעות הנכונות.</span><span class="en">"Call the accountant tomorrow at 10, and I have a meeting with Moshe" – two items, right times.</span></div>
+      <div class="pt"><b>⏰ <span class="he">תזכורות וסיכומים</span><span class="en">Reminders and summaries</span></b><span class="he">סיכום בוקר, תזכורת בזמן, ומה שאחרים עוד לא עשו.</span><span class="en">Morning summary, reminders on time, and what others still owe you.</span></div>
+      <div class="pt"><b>✅ <span class="he">אתה מחליט</span><span class="en">You decide</span></b><span class="he">כל דבר מחכה ל"כן". "בטל" מחזיר אחורה.</span><span class="en">Everything waits for "yes". "Undo" puts it back.</span></div>
+      <div class="pt"><b>🧠 <span class="he">לומד ממך</span><span class="en">Learns from you</span></b><span class="he">כל טעות שמתקנים – הוא לא חוזר עליה.</span><span class="en">Every mistake you correct – it does not repeat.</span></div>
+    </div>
+  </div>
+
+  <div class="card"><h2>🔒 <span class="he">פרטיות – אתה בוחר</span><span class="en">Privacy – your choice</span></h2>
+    <p class="he" style="margin:0">ההקלטות מתומללות <b>בטלפון שלך</b>. אפשר לבחור "שום דבר לא יוצא מהמכשיר" – והוא עובד בלי AI ובלי אינטרנט חיצוני. אם מחברים AI, נשלח רק טקסט, אחרי הסתרת טלפונים, מיילים, ת"ז, חשבונות, מספרי תיקים ושמות. אפשר לראות בדיוק מה נשלח, ולמחוק הכל בלחיצה.</p>
+    <p class="en b" style="margin:0">Voice notes are transcribed <b>on your phone</b>. You can choose "nothing leaves the device" – it then works with no AI and no outside service. If you connect an AI, only text is sent, with phone numbers, emails, IDs, accounts, case numbers and names hidden. You can see exactly what was sent, and delete everything in one tap.</p>
+  </div>
+
+  <div class="card"><h2><span class="he">שאלות</span><span class="en">Questions</span></h2>
+    <details><summary><span class="he">צריך מספר נפרד?</span><span class="en">Do I need a separate number?</span></summary><p class="he">לא חובה, אבל מומלץ: העוזר מתחבר לוואטסאפ כמו "וואטסאפ ווב", דרך ספרייה לא רשמית. הסיכון לחסימה נמוך, לא אפס. עם מספר נפרד (כרטיס SIM או eSIM זול) – המספר האישי שלך לא בסיכון, ואתה פשוט שולח לו הודעות.</p><p class="en">Not required, but recommended: it links to WhatsApp like "WhatsApp Web", through an unofficial library. The risk of a block is low, not zero. With a separate number (a cheap SIM or eSIM) your personal number is never at risk – you just message it.</p></details>
+    <details><summary><span class="he">אייפון?</span><span class="en">iPhone?</span></summary><p class="he">עוד לא: אייפון לא מאפשר לאפליקציה לרוץ ברקע כך. אפשר להריץ במחשב שדולק רוב הזמן.</p><p class="en">Not yet: iPhone does not let an app run in the background this way. It can run on a computer that is on most of the time.</p></details>
+    <details><summary><span class="he">זה עולה כסף?</span><span class="en">Does it cost money?</span></summary><p class="he">האפליקציה חינם. AI הוא אופציונלי: מפתח שלך ל-Claude או לשירות אחר (כמה אגורות להודעה), או חינם עם הכללים בלבד.</p><p class="en">The app is free. AI is optional: your own key for Claude or another service (a few cents per message), or free with the rules only.</p></details>
+  </div>
+  <footer><span class="he">העוזר כותב רק לך. שום דבר לא נשלח לאחרים.</span><span class="en">It only ever writes to you. Nothing is sent to anyone else.</span></footer>
+</div>
+<script>
+const b = document.getElementById('lang');
+const set = l => { document.documentElement.lang = l; document.documentElement.dir = l === 'en' ? 'ltr' : 'rtl'; b.textContent = l === 'en' ? 'עברית' : 'English'; document.title = l === 'en' ? 'Voice Assistant – install' : 'העוזר הקולי – התקנה'; };
+b.onclick = () => set(document.documentElement.lang === 'en' ? 'he' : 'en');
+if (!/^he/i.test(navigator.language || '')) set('en');
+</script>
+</body>
+</html>
